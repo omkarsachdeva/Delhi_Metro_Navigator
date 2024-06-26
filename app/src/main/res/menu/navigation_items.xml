@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24"/>
+    <item
+        android:id="@+id/removeads"
+        android:title="Remove Ads"
+        android:icon="@drawable/img_3"/>
+    <item
+        android:id="@+id/fare"
+        android:title="Fare"
+        android:icon="@drawable/img_4"/>
+    <item
+        android:id="@+id/map"
+        android:title="Map"
+        android:icon="@drawable/img_5"/>
+    <item
+        android:id="@+id/route"
+        android:title="Route"
+        android:icon="@drawable/img_6"/>
+    <item
+        android:id="@+id/firstlastmetro"
+        android:title="First/Last Metro"
+        android:icon="@drawable/img_7"/>
+    <item
+        android:id="@+id/upcomingmetro"
+        android:title="Upcoming Metro"
+        android:icon="@drawable/img_8"/>
+    <item
+        android:id="@+id/cardrecharge"
+        android:title="Card Recharge"
+        android:icon="@drawable/img_11"/>
+    <item
+        android:id="@+id/parking"
+        android:title="Parking"
+        android:icon="@drawable/img_9"/>
+    <item
+        android:id="@+id/gatesanddirections"
+        android:title="Gates and Directions"
+        android:icon="@drawable/img_10"/>
+    <item
+        android:id="@+id/about"
+        android:title="About"
+        android:icon="@drawable/img_15"/>
+    <item
+        android:id="@+id/likethisapp"
+        android:title="Like this App"
+        android:icon="@drawable/img_12"/>
+    <item
+        android:id="@+id/feedback"
+        android:title="Feedback"
+        android:icon="@drawable/img_14"/>
+
+</menu>

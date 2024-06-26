@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutFragment"
+    android:background="#fff"
+    tools:ignore="ExtraText">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        0<androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarabt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#002D62"
+            android:minHeight="?attr/actionBarSize"
+            android:text="About"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="About"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <ScrollView
+            android:layout_width="402dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:contentDescription="TODO"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbarabt">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="serif"
+                android:text="Developed By:"
+                android:textAlignment="center"
+                android:textColor="#090101"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    app:cardCornerRadius="80dp"
+                    android:elevation="5dp"
+                    android:layout_marginBottom="5dp">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/img_20"/>
+
+
+                </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="35dp"
+                        android:layout_marginTop="30dp"
+                        android:fontFamily="serif"
+                        android:text="Priyanka Goel"
+                        android:textAlignment="center"
+                        android:textColor="#090101"
+                        android:textSize="21sp"
+                        android:textStyle="bold" />
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginStart="20dp"
+                        android:src="@drawable/img_22"/>
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="120dp"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    app:cardCornerRadius="60dp"
+                    android:elevation="5dp"
+                    android:layout_marginBottom="5dp">
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/img_21"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="155dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="serif"
+                    android:text="Anupam Dutta"
+                    android:textAlignment="center"
+                    android:textColor="#090101"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginStart="15dp"
+                    android:src="@drawable/img_22"/>
+            </LinearLayout>
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="32dp"
+                    android:text="Reference:"
+                    android:textStyle="bold"
+                    android:textSize="23sp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#070404"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:textColor="#070404"
+                    android:layout_marginStart="10dp"
+                    android:text="https://www.delhimetrorail.com"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:textColor="#070404"
+                    android:layout_marginStart="10dp"
+                    android:text="Dedicated to parents for their        unconditional love and support "/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:textColor="#070404"
+                    android:layout_marginStart="10dp"
+                    android:text="For any suggestion or feedback,mail us at"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:textColor="#070404"
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:text="support@tilzmatictech.com"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textSize="20sp"
+                    android:textColor="#070404"
+
+                    android:layout_marginStart="10dp"
+                    android:text="Version History"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:textColor="#070404"
+
+                    android:layout_marginStart="10dp"
+                    android:text="10.0.56 Grey Line Update and Performance fixes
+
+10.0.55 Platform Data Update and stability fixes                                                            10.0.53 Aqua Line (Sector 51 to Depot), Platform
+
+Fixes, Route Optimization
+
+10.0.50 Noida Line (Noida City Center to Electronic City), Red Line Extension (Dishad Garden to New Bus
+
+Adda), Route Optimization, Reduced Ads 10.0.49 Pink Line Lajpat Nagar to Mayur Vihar
+
+Pocket 1
+
+10.0.47 Violet Line Escorts Mujesar to Raja Nahar Singh (Ballabhgarh), Added swap button to exchange source and destination
+
+10.0.46 Fixed Issue with Map
+
+10.0.45 Pink Line Shiv Vihar to Trilok Puri Map,
+
+station, route, fare, time, distance, gate information added
+
+Parking Fare update
+
+Bug fixes
+
+Thanks to Bharat Jain and many others for feedback 1.0.42 Pink Line Durgabai Deshmukh south campus
+
+to Lajpat Nagar map, station, route, fare, time, distance, gate information added
+
+Parking Fare update
+
+Bug fixes
+
+1.0.41 Fixed Issue with Timing Info
+
+1.0.40 Green Line fare, time, distance, gate
+
+information added 1.0.39 Map bug fixed
+
+1.0.38 Green Line Mundka to City Park
+
+(Bahadurgarh) map, station, route added
+
+Bug fixes
+
+1.0.37 Magenta Line fare, time, gate information
+
+added 1.0.35 Performance Improvement for Routing Algo, Magenta Line Platform Updates
+
+1.0.34 Magenta Line Kalandi Kunj to Jankapuri West map, station, route added
+
+Upcoming map updated
+
+Parking Fare updated
+
+1.0.32 Train running time update, Bug fix, Fixed fare
+
+issue 1.0.31 Pink Line update dialog
+
+1.0.30 Pink Line from Majlis Park to Durgabai
+
+Deshmukh south campus fare, map, route, stations added
+
+1.0.29 Pink Line from Majlis Park to Durgabai
+
+Deshmukh south campus 1.0.27 Ad Free Option, Updates to Metro Timing,
+
+Platform Info
+
+1.0.24 Magenta Line till Kalandi Kunj, Exit Gate
+
+Information
+
+1.0.22 Discount Timer on Home Screen, Bug Fixes 1.0.19 New Fare 10th Oct 2017 Added, App Open
+
+Freeze Bug Fix, Fixed Issue where Fare was not updated
+
+1.0.18 New Fare 10th Oct 2017 Added, App Open
+
+Freeze Bug Fix
+
+1.0.16 Rapid Metro Phase2 added, Heritage Line fare and route added, Online Card Recharge,
+
+Platform details in route
+
+1.0.14 Love Confession Notification/Sound Settings
+
+1.0.12 Love Confession, Redesigned HomePage,
+
+Updated Fare
+
+1.0.11 Bug Fix
+
+1.0.10 Heritage Line Added Thanks @Deepika
+
+Mehra, Bug Fix 1.0.9 First/Last Metro Timings, Upcoming Metros, Redesigned Fare
+
+1.0.8 Route Optimization,Hindi Support
+
+Added,Thanks @Mahatab Alam for reporting bugs 1.0.7 Added Distance and Time in Route 1.0.5 Bug Fixes
+
+1.0.4 Updated Fare May 2017
+
+1.0.0 Our Brand New Shining app"
+                    android:textAlignment="textStart"
+                   />
+
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</ScrollView>
